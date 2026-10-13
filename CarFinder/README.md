@@ -1,9 +1,14 @@
-# CarFinder
+# AutoCountry CarFinder
 
-My vehicle finder for Programming Logic. It lists, searches, adds, and deletes vehicles, then saves the list in `allowed_vehicles.txt`. The earlier versions are kept here too.
+A console application for managing an authorized vehicle list. The menu supports listing, searching, adding, and deleting vehicles. Changes are saved to `allowed_vehicles.txt`.
 
-Run the final version from this folder:
+`AutoCountryLive 1.0.py` is the final version. The other Python files contain earlier versions.
+
+## Run
+
+Requires Python 3. From the repository root:
 
 ```sh
+cd CarFinder
 python3 "AutoCountryLive 1.0.py"
 ```
