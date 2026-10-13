@@ -1,0 +1,33 @@
+Begin
+Set hasLeftHome to false
+Set atSchool to false
+WHILE not hastLeftHome
+If breakfast is ate AND backpack is ready 
+Leave Home
+Set hasLeftHome to true
+Else
+If breakfast hasn’t been eaten
+Eat breakfast
+END IF
+IF backpack is not ready
+Pack backpack
+End if
+End While 
+
+While not atSchool
+Walk to the bus stop
+IF bus arrives within 5 minutes 
+Board the bus
+WHILE on bus 
+IF reached school stop 
+Exit bus
+Set atSchool to true
+Else
+Wait until next stop
+End If 
+End While
+Else 
+Wait for the next bus
+End if
+End while 
+End

@@ -1,0 +1,5 @@
+# Start
+# Prompt user to enter a value to be Calculated
+# Read the entered value into a variable named ‘cashMultiplier’ 
+# Multiply ‘cashMultiplier’ by 10 and store the result in a variable named ‘Winnings’
+# End
